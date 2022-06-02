@@ -6,9 +6,7 @@ import java.awt.*;
 public class TextPanel extends JPanel { // como já está estendendo JPanel, eu não preciso criar (JPanel j = new JPanel();)
 
     private JTextField txtNumber;
-    // eu tb poderia fazer assim:
-    // JTextField txtNumber = new JTextField(15);
-    // mas eu acho que se faz assim, para poder colocar como private
+
 
 
     public TextPanel(){ // construtor
